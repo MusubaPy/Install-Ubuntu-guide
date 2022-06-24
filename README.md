@@ -82,6 +82,7 @@ If your computer doesn’t automatically boot from USB, try holding **F12** when
 
 
 If automatic booting does not start, you need to set the computer to boot not from your hard drive, but from a newly recorded USB installer. To do this, restart your computer and press **Del**, **F8**, **Shift+F2** or another key combination during the BIOS splash screen to open the BIOS setup menu. 
+
 ![image](https://user-images.githubusercontent.com/11860297/175530047-57618fd6-1c2e-4082-bd1c-1677226222b8.png)
 
 Here you need to go to the **Boot** tab, and then in the **Boot device priority** section set your flash drive or DVD to the first place. Then you only need to go to the **Exit** tab and click **Exit & Save settings**.
