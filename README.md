@@ -68,7 +68,7 @@ Open the Ubuntu [website](http://releases.ubuntu.com/18.04/) and download the De
 
 Once the image has been downloaded, it must be burned to an installation medium - a flash drive. 
 You can use the Etcher utility or Unetbootin to write it to a Linux flash drive.
-To write to a flash drive in Windows, you can use the Rufus utility.
+To write to a flash drive in Windows, you can use the [Rufus](https://rufus.ie/en/) utility.
 
 
 <a name="BIOS"></a>
@@ -81,10 +81,12 @@ If your computer doesn’t automatically boot from USB, try holding **F12** when
 - **F12** is the most common key for bringing up your system’s boot menu, but **Escape**, **F2** and **F10** are common alternatives. If you’re unsure, look for a brief message when your system starts - this will often inform you of which key to press to bring up the boot menu.
 
 
-If automatic booting does not start, you need to set the computer to boot not from your hard drive, but from a newly recorded USB installer. To do this, restart your computer and press **Del**, **F8**, **Shift+F2** or another key combination during the BIOS splash screen to open the BIOS setup menu.
+If automatic booting does not start, you need to set the computer to boot not from your hard drive, but from a newly recorded USB installer. To do this, restart your computer and press **Del**, **F8**, **Shift+F2** or another key combination during the BIOS splash screen to open the BIOS setup menu. 
 ![image](https://user-images.githubusercontent.com/11860297/175530047-57618fd6-1c2e-4082-bd1c-1677226222b8.png)
 
+Here you need to go to the **Boot** tab, and then in the **Boot device priority** section set your flash drive or DVD to the first place. Then you only need to go to the **Exit** tab and click **Exit & Save settings**.
 
+Go to the [website](https://www.lifewire.com/change-the-boot-order-in-bios-2624528) for more information. 
 <a name="InstallUbuntu"></a>
 ## 3.Installing Ubuntu 18.04
 
