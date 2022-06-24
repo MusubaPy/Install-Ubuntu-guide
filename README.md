@@ -1,4 +1,4 @@
-# Install-Ubuntu-guide-oos
+# Install-Ubuntu-guide-oos [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)]
 Here you will find a comprehensive guide to installing Ubuntu 18.04 as the only operating system
 
 ------
@@ -60,33 +60,62 @@ Before we can proceed to install the system, we need to prepare everything. The 
 
 <a name="LoadISO"></a>
 ### 2.1 Downloading the image
+
+Open the Ubuntu [website](http://releases.ubuntu.com/18.04/) and download the Desktop version image.
+
 <a name="WriteISO"></a>
 ### 2.2 Writing the image to a USB key
+
+Once the image has been downloaded, it must be burned to an installation medium - a flash drive. 
+You can use the Etcher utility or Unetbootin to write it to a Linux flash drive.
+To write to a flash drive in Windows, you can use the Rufus utility.
+
+
 <a name="BIOS"></a>
 ### 2.3 BIOS setup
 
+Most computers will boot from USB automatically. Simply insert the USB flash drive and either power on your computer or restart it. You should see a welcome window prompting you to choose your language and either install or try the Ubuntu desktop.
+
+If your computer doesn’t automatically boot from USB, try holding **F12** when your computer first starts. With most machines, this will allow you to select the USB device from a system-specific boot menu.
+
+- **F12** is the most common key for bringing up your system’s boot menu, but **Escape**, **F2** and **F10** are common alternatives. If you’re unsure, look for a brief message when your system starts - this will often inform you of which key to press to bring up the boot menu.
+
+
+If automatic booting does not start, you need to set the computer to boot not from your hard drive, but from a newly recorded USB installer. To do this, restart your computer and press **Del**, **F8**, **Shift+F2** or another key combination during the BIOS splash screen to open the BIOS setup menu.
+![image](https://user-images.githubusercontent.com/11860297/175530047-57618fd6-1c2e-4082-bd1c-1677226222b8.png)
+
+
 <a name="InstallUbuntu"></a>
 ## 3.Installing Ubuntu 18.04
+
+Next, need to reboot your computer and we will go straight to installing the operating system.
+
 <a name="LangSec"></a>
 ### 3.1 Language selection
+
+Immediately after the reboot you will see this window:
+
+![image](https://user-images.githubusercontent.com/11860297/175529993-626c86e6-e4ef-4b8b-b2c3-7c78b04a2e45.png)
+
+You can skip this step and Ubuntu installation will start immediately in English, but it is better to press any button and select English.
+
 <a name="Loader"></a>
 ### 3.2 Loading the system installer
-<a name="LoadLS"></a>
-### 3.3 Loading the Live System
-<a name="Installer"></a>
-### 3.4 Start the installer
+
+In the menu that opens, select Install Ubuntu and the installer will start.
+
 <a name="LanguageAgain"></a>
-### 3.5 Language selection
+### 3.3 Language selection
 
 
 <a name="Layout"></a>
-### 3.6 Keyboard Layout
+### 3.4 Keyboard Layout
 <a name="Software"></a>
-### 3.7 Software
+### 3.5 Software
 <a name="PartDist"></a>
-### 3.8 How to partition the disk
+### 3.6 How to partition the disk
 <a name="PartTable"></a>
-### 3.9 New Partition Table
+### 3.7 New Partition Table
 <a name="BootLoad"></a>
 ### 3.10 Creating a bootloader partition
 
