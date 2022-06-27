@@ -1,4 +1,4 @@
-# Install-Ubuntu-guide-oos [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)]
+# Install-Ubuntu-guide-oos ![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)
 Here you will find a comprehensive guide to installing Ubuntu 18.04 as the only operating system
 
 ------
@@ -11,26 +11,19 @@ Here you will find a comprehensive guide to installing Ubuntu 18.04 as the only 
 - [3.Installing Ubuntu 18.04](#InstallUbuntu)
     - [3.1 Language selection](#LangSec)
     - [3.2 Loading the system installer](#Loader)
-    - [3.3 Loading the Live System](#LoadLS)
-    - [3.4 Start the installer](#Installer)
-    - [3.5 Language selection](#LanguageAgain)
-    - [3.6 Keyboard Layout](#Layout)
-    - [3.7 Software](#Software)
-    - [3.8 How to partition the disk](#PartDist)
-    - [3.9 New Partition Table](#PartTable)
-    - [3.10 Creating a bootloader partition](#BootLoad)
-    - [3.11 Creating a root partition](#RootPart)
-    - [3.12 Creating a home partition](#HomePart)
-    - [3.13 Finishing disk partitioning](#FinPart)
-    - [3.14 Time Zone](#TZ)
-    - [3.15 Creating a user](#CreateUser)
-    - [3.16 Installing the system](#InstSys)
-    - [3.17 Reboot](#Reboot)
-    - [3.18 Booting a New System](#BootNewSys)
-    - [3.19 Getting to know your system](#Welcome)
-    - [3.20 Configuring Livepatch](#Livepatch)
-    - [3.21 Privacy](#Privacy)
-    - [3.22 Installing applications](#AppInstall)
+    - [3.3 Language selection](#LanguageAgain)
+    - [3.4 Keyboard Layout](#Layout)
+    - [3.5 Software](#Software)
+    - [3.6 How to partition the disk](#PartDist)
+    - [3.7 New Partition Table](#PartTable)
+    - [3.8 Creating a bootloader partition](#BootLoad)
+    - [3.9 Creating a root partition](#RootPart)
+    - [3.10 Creating a home partition](#HomePart)
+    - [3.11 Finishing disk partitioning](#FinPart)
+    - [3.12 Time Zone](#TZ)
+    - [3.13 Creating a user](#CreateUser)
+    - [3.14 Installing the system](#InstSys)
+    - [3.15 Reboot](#Reboot)
 - [4. Conclusions](#Conclusion)
 
 ------
@@ -182,7 +175,7 @@ Traditionally in Linux it is recommended to create three partitions:
 We will follow this scheme. In principle, you do not have to create the **/boot** partition, but it is advisable if you are going to install multiple Linux distributions.
 
 <a name="BootLoad"></a>
-### 3.10 Creating a bootloader partition
+### 3.8 Creating a bootloader partition
 
 To create a partition, select **Free space** and click the **+** (plus) sign button. It will provide you with the option to create a Linux partition. In the window that opens you will need to select the size of the partition. Lately the bootloader has been taking up a lot of space, so it is better to leave at least 300 megabytes.
 
@@ -191,7 +184,7 @@ Choose the size, select **Ext 2** as file type and **/boot** as the mount point.
 Then click the **"OK"** button.
 
 <a name="RootPart"></a>
-### 3.11 Creating a root partition
+### 3.9 Creating a root partition
 
 You are creating the Root partition. Anything above 25 GB is more than sufficient for it. Choose the size, select **Ext 4** as file type and **/** (means root) as the mount point.
 
@@ -200,7 +193,7 @@ If the **/boot** and **/home** partitions can be left out, this partition is man
 ![image](https://user-images.githubusercontent.com/11860297/175898619-e3e5054e-538a-47de-9932-18fac5535ee5.png)
 
 <a name="HomePart"></a>
-### 3.12 Creating a home partition
+### 3.10 Creating a home partition
 
 In the similar fashion, create a Home partition. Allocate it maximum space (in fact allocate it rest of the free space) because this is where you’ll save music, pictures and downloaded files.
 
@@ -208,7 +201,7 @@ In the similar fashion, create a Home partition. Allocate it maximum space (in f
 
 
 <a name="FinPart"></a>
-### 3.13 Finishing disk partitioning
+### 3.11 Finishing disk partitioning
 
 Once you are ready with Boot, Root and Home, click on **Install Now**:
 
@@ -217,7 +210,7 @@ Once you are ready with Boot, Root and Home, click on **Install Now**:
 __>>>>P.S. This image may differ from yours.<<<<__
 
 <a name="TZ"></a>
-### 3.14 Time Zone
+### 3.12 Time Zone
 
 If you are connected to the internet, your location will be detected automatically. Check your location is correct and click ’Forward’ to proceed.
 
@@ -228,7 +221,7 @@ If you’re unsure of your time zone, type the name of a local town or city or u
 __>>>>P.S. If you’re having problems connecting to the Internet, use the menu in the top-right-hand corner to select a network.<<<<__
 
 <a name="CreateUser"></a>
-### 3.15 Creating a user
+### 3.13 Creating a user
 
 Enter your name and the installer will automatically suggest a computer name and username. These can easily be changed if you prefer. The computer name is how your computer will appear on the network, while your username will be your login and account name.
 
@@ -238,7 +231,7 @@ Next, enter a password. The installer will let you know if it’s too weak.
 
 
 <a name="InstSys"></a>
-### 3.16 Installing the system
+### 3.14 Installing the system
 
 The installer will now complete in the background while the installation window teaches you a little about how awesome Ubuntu is. Depending on the speed of your machine and network connection, installation should only take a few minutes.
 
@@ -246,7 +239,7 @@ The installer will now complete in the background while the installation window 
 
 
 <a name="Reboot"></a>
-### 3.17 Reboot
+### 3.15 Reboot
 
 After everything has been installed and configured, a small window will appear asking you to restart your machine. Click on Restart Now and remove either the DVD or USB flash drive when prompted. 
 
