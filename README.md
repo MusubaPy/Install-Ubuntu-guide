@@ -56,6 +56,9 @@ Before we can proceed to install the system, we need to prepare everything. The 
 
 Open the Ubuntu [website](http://releases.ubuntu.com/18.04/) and download the Desktop version image.
 
+![image](https://user-images.githubusercontent.com/11860297/175909902-edb801ea-8a1e-4014-b0e3-0979c39d792a.png)
+
+
 <a name="WriteISO"></a>
 ### 2.2 Writing the image to a USB key
 
