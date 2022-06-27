@@ -1,5 +1,5 @@
 # Install-Ubuntu-guide-oos ![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)
-Here you will find a comprehensive guide to installing Ubuntu 18.04 as the only operating system
+Here you will find a comprehensive guide to installing Ubuntu 18.04.
 
 ------
 
@@ -182,14 +182,14 @@ We will follow this scheme. In principle, you do not have to create the **/boot*
 
 To create a partition, select **Free space** and click the **+** (plus) sign button. It will provide you with the option to create a Linux partition. In the window that opens you will need to select the size of the partition. Lately the bootloader has been taking up a lot of space, so it is better to leave at least 300 megabytes.
 
-Choose the size, select **Ext 2** as file type and **/boot** as the mount point.
+Choose the size, select **Ext2** as file type and **/boot** as the mount point.
 
 Then click the **"OK"** button.
 
 <a name="RootPart"></a>
 ### 3.9 Creating a root partition
 
-You are creating the Root partition. Anything above 25 GB is more than sufficient for it. Choose the size, select **Ext 4** as file type and **/** (means root) as the mount point.
+You are creating the Root partition. Anything above 25 GB is more than sufficient for it. Choose the size, select **Ext4** as file type and **/** (means root) as the mount point.
 
 If the **/boot** and **/home** partitions can be left out, this partition is mandatory. This is where the operating system will be located. If you don't make the **/boot** and **/home** partitions, their files will also be on this partition. 
 
