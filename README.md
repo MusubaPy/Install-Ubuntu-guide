@@ -1,4 +1,4 @@
-# Install-Ubuntu-guide-oos ![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)
+# Install-Ubuntu-guide ![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)
 Here you will find a comprehensive guide to installing Ubuntu 18.04.
 
 ------
