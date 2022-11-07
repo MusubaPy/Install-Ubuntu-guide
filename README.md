@@ -40,7 +40,7 @@ You’ll need to consider the following before starting the installation:
 Minimal system requirements:
 - 2 GHz dual core processor
 - 4 GiB RAM (system memory)
-- 25 GB (8.6 GB for minimal) of hard-drive space (or USB stick, memory card or external drive but see LiveCD for an alternative approach)
+- 50 GB (8.6 GB for minimal) of hard-drive space (or USB stick, memory card or external drive but see LiveCD for an alternative approach)
 - VGA capable of 1024x768 screen resolution
 - Either a CD/DVD drive or a USB port for the installer media
 - Internet access is helpful
@@ -189,7 +189,7 @@ Then click the **"OK"** button.
 <a name="RootPart"></a>
 ### 3.9 Creating a root partition
 
-You are creating the Root partition. Anything above 25 GB is more than sufficient for it. Choose the size, select **Ext4** as file type and **/** (means root) as the mount point.
+You are creating the Root partition. Anything above 50 GB is more than sufficient for it. Choose the size, select **Ext4** as file type and **/** (means root) as the mount point.
 
 If the **/boot** and **/home** partitions can be left out, this partition is mandatory. This is where the operating system will be located. If you don't make the **/boot** and **/home** partitions, their files will also be on this partition. 
 
